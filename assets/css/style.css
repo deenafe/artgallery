@@ -95,4 +95,18 @@ a {
    
 }
 
+/* Building layout */
+
+.flex-container-layout {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex-layout-images {
+       width: 250px;
+        margin: 10px;
+        border: 2px solid beige;
+   
+}
 
