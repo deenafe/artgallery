@@ -16,6 +16,12 @@ body {
 
 /* logo and nav links */
 
+.flex-nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 h1 {
     color: green;
@@ -23,27 +29,44 @@ h1 {
 }
 
 
-#menu-left {
+.nav-left {
     font-size: 120%;
+    list-style-type: none;
+    
+    
 }
 
-#menu-left,  #logo {
+.nav-left, .nav-list-items {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.nav-logo {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 45%;
+   
+    
+}
+
+/* #menu-left,  #logo {
     line-height: 100px;
-}
+} */
 
-#menu-left li {
+/* #menu-left li {
     list-style-type: none;
     float: left;
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 30px; 
 
-}
+} */
 
 #logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     
-}
+} 
 
 
 
@@ -52,8 +75,8 @@ a {
     color: inherit;
 }
 
-#menu-left a:hover {
-      border-bottom: 1px solid green;
+.nav-left a:hover {
+      color: green;
 }
 
 /* Main image */
