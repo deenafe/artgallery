@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     border: none;
+    box-sizing: border-box;
 }
-
 
 body {
     font-family: Quicksand, sans-serif;
@@ -13,19 +13,17 @@ body {
 }
 
 
-
 /* logo and nav links */
 
 .flex-nav-links {
     display: flex;
     align-items: center;
-   
 }
+
 .nav-logo {
     position: absolute;
     right: 45%;
 }
-
 
 .nav-logo h1 {
     color: green;
@@ -33,21 +31,16 @@ body {
     font-size: 200%;
 }
 
-
 .nav-left {
     font-size: 120%;
     list-style-type: none;
     display: flex;  
-    
 }
  
-
 .nav-left, .nav-list-items {
     display: inline-block;
     margin: 20px 10px;
 } 
-
-
 
 a {
     text-decoration: none;
@@ -66,13 +59,13 @@ a {
     padding: 10px;
     font-size: 15px;
     font-style: italic;
-    
 }
 
 #caption-text hr {
     border: 1px solid green;
     margin-top: 15px;
 }
+
 
 /* Musuem info */
 
@@ -86,10 +79,7 @@ a {
 #flex-info-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    
-    
-   
+    flex-wrap: wrap;  
 }
 
 .flex-info {
@@ -97,13 +87,11 @@ a {
     flex-basis: 40%;  
     margin-bottom: 15px;
     padding: 10px;
-   
-}
+   }
 
 
 #layout-background {
     background-color: #4F7942;
-
 }
 
 .museum-layout-container img {
@@ -118,7 +106,6 @@ a {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .museum-layout-container figcaption {
@@ -134,8 +121,6 @@ footer {
 
 .social-media {
     text-align: center;
-
-    
 }
 
 .social-media li {
@@ -152,3 +137,17 @@ footer {
 .social-media a:hover {
     opacity: 0.5;
 }
+
+/* Collection gallery */
+
+.collection-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.collection-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
