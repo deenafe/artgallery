@@ -155,7 +155,6 @@ footer {
     flex: 33%;
     max-width: 33%;
     padding: 0 4px;
-    overflow: hidden;
 }
 
 .collection-column img {
