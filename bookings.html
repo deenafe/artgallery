@@ -30,17 +30,58 @@
 
     <div class="booking-container">
         <div class="time-container">
+            <h2 class="time-header">Time Open</h2>
+            <h3 class="days-heading">Monday-Friday</h3>
+            <p>9am to 6pm</p>
+
+            <h3 class="days-heading">Saturday and Sunday</h3>
+            <p>11am to 7pm</p>
+
+            <hr>
+
+            <h4 class="phone-heading">Phone Number: (234) 1 463-000-000 </h4>
+
 
         </div>
 
         <div class="form-container">
+            <form action="POST" action= "https://formdump.codeinstitute.net/">
+                <h2 class="time-header">Make Online Reservation</h2>
+                <label for="yname">Your Name</label>
+                   <input class="text-input" id="yname" name="your_name" type="text" required>
+
+   <label for="email">Email Address</label>
+                   <input class="text-input" id="email" name="email_address" type="email" required>
+                   
+                   <label for="date">Last Name</label>
+                   <input class="text-input" id="date" name="book_date" type="text" required>
+
+           <label for="time">Last Name</label>
+                   <input class="text-input" id="time" name="book_time" type="text" required>
+
+           <label for= "number-of-persons">Number of persons</label>
+            <select id= "number-of-persons" name= "number-of-persons">
+                <option value= "1">1</option>
+                <option value= "2">2</option>
+                <option value= "3">3</option>
+                <option value= "4">4</option>
+                <option value= "5">5</option>
+                <option value= "6">6</option>
+                <option value= "7">7</option>
+                <option value= "8">8</option>
+                <option value= "9">9</option>
+                <option value= "10">10</option>
+                <option value= "10+">10+</option>
+            </select>
+                
+
+<input type="submit" class="book-button" value="Book Now" >
+
+            </form>
 
         </div>
       
     </div>
-
-    
-
 
     <footer>
         <ul class="social-media">
