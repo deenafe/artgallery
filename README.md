@@ -2,6 +2,8 @@ EMOWAA is an illustrative website about a museum that houses a collection of art
 
 ## Features
 
+# Navigation
+
 
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
