@@ -1,4 +1,4 @@
-EMOWAA website is an illustrative website about a museum that houses a collection of artefacts and imagery (primarily Bronze and copper carvings from the ancient Benin Kingdom). Although, the museum only exists presently as an idea, espoused by David Adjaye, this website aims to provide insight on a probable collection of artefacts to be housed in the hypotehtical museum.
+EMOWAA is an illustrative website about a museum that houses a collection of artefacts and imagery (primarily Bronze and copper carvings from the ancient Benin Kingdom). Although, the museum only exists presently as an idea, espoused by David Adjaye, this website aims to provide insight on a probable collection of artefacts to be housed in the hypotehtical museum.
 
 
 
